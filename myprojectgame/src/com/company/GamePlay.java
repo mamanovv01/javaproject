@@ -295,7 +295,7 @@ public void keyReleased(KeyEvent ke){
     public int getRandomNumberForX(){
         Random random = new Random();
         int max = -2;
-        int min = -5;
+        int min = -4;
         int randomNumber = min + random.nextInt(max - min + 1);
         return randomNumber;
     }
