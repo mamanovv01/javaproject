@@ -72,7 +72,6 @@ public void paint(Graphics graphics) {
         graphics.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 25));
         graphics.drawString("Press Enter/Left/Right Arrow to start the game!", 90, 350);
 
-        graphics.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 20));
         graphics.drawString("Kubanychbek Mamanov",235,270);
 
         //ball hiding
