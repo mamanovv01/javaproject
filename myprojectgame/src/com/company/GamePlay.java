@@ -207,12 +207,12 @@ public void keyPressed(KeyEvent ke){
 
 public void moveRight(){
     play = true;
-    playerX += 60;
+    playerX += 77;
 }
 
 public void moveLeft(){
     play = true;
-    playerX -= 60;
+    playerX -= 77;
 }
 
 @Override
