@@ -287,7 +287,7 @@ public void keyReleased(KeyEvent ke){
     public int getRandomNumberForY(){
         Random random = new Random();
         int max = -2;
-        int min = -4;
+        int min = -5;
         int randomNumber = min + random.nextInt(max - min + 1);
         return randomNumber;
     }
