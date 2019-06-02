@@ -63,7 +63,7 @@ public void paint(Graphics graphics) {
     graphics.drawString("Score: " + score + "/200", 490, 30);
 
     //paddle
-    graphics.setColor(Color.green);
+    graphics.setColor(Color.blue);
     graphics.fillRect(playerX, 550, 100, 8);
 
     if (play == false) {
